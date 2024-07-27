@@ -16,9 +16,9 @@ sudo apt -y install docker.io
 
 ## Documentação
 
-* [Wikipedia: Docker (software)](https://pt.wikipedia.org/wiki/Docker_(software))
 * [Web oficial: Docker](https://www.docker.com/)
-* [Documentação oficial](https://docs.docker.com/)
+* [Documentação oficial: Docker](https://docs.docker.com/)
+* [Wikipedia: Docker (software)](https://pt.wikipedia.org/wiki/Docker_(software))
 
 ## Editor Extensões
 
