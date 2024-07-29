@@ -4,7 +4,7 @@ all:
 	@echo "make [option]"
 
 pkgs:
-	sudo apt install -y mongodb-clients
+	sudo apt -y install mongodb-clients
 
 # docker images
 build:

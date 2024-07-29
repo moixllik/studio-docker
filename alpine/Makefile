@@ -21,4 +21,4 @@ test:
 
 clean: stop
 	docker ps -a -q | xargs docker rm
-	docker rmi $(IMAGE_TAG)
+	docker images -a -q | xargs docker rmi
