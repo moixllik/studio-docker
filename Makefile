@@ -1,4 +1,7 @@
-update:
+all:
+	@echo "make [option]"
+
+update-os:
 	sudo apt -y update && sudo apt -y upgrade 
 
 # Debian: https://packages.debian.org/search?keywords=docker

@@ -11,7 +11,7 @@ sudo apt -y install docker.io
 > Todos os projetos são testados em CodeSpaces
 
 * [Alpine Linux](./alpine/)
-* [Debian SLIM Linux](./debian-slim/)
+* [Debian Linux](./debian/)
 * [MongoDB Server](./mongodb/)
 
 ## Documentação

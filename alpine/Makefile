@@ -11,7 +11,7 @@ build:
 run:
 	docker run -p 8080:8080 --detach $(IMAGE_TAG)
 
-# dokcer ps -a
+# docker ps -a
 stop:
 	docker ps -q | xargs docker stop
 
@@ -20,5 +20,5 @@ test:
 	@curl -I localhost:8080
 
 clean: stop
-	docker ps -a | xargs docker rm
+	docker ps -a -q | xargs docker rm
 	docker rmi $(IMAGE_TAG)
