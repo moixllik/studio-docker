@@ -4,7 +4,7 @@ all:
 	@echo "make [option]"
 
 pkgs:
-	sudo apt -y install mongodb-clients
+	pip install pymongo
 
 # docker images
 build:
@@ -43,7 +43,7 @@ rm-images:
 # 1 OK
 test:
 	@echo "\nTEST"
-	@mongo "mongodb://localhost:27017" --eval 'db.serverStatus().ok'
+	@python3 ./test.py
 
 clean: stop rm-containers rm-images
 	@echo "\nCLEAN"
