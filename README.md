@@ -19,7 +19,3 @@ sudo apt -y install docker.io
 * [Web oficial: Docker](https://www.docker.com/)
 * [Documentação oficial: Docker](https://docs.docker.com/)
 * [Wikipedia: Docker (software)](https://pt.wikipedia.org/wiki/Docker_(software))
-
-## Editor Extensões
-
-* [VS Code - Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
