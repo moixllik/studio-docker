@@ -8,11 +8,10 @@ sudo apt -y install docker.io
 
 ## Projetos
 
-> Todos os projetos são testados em CodeSpaces
-
 * [Alpine Linux](./alpine/)
 * [Debian Linux](./debian/)
 * [MongoDB Server](./mongodb/)
+* [Executar arquivos wasm](./wasm/)
 
 ## Documentação
 
