@@ -1,19 +1,17 @@
 # Docker
 
-## Instalação
-
 ```bash
 sudo apt -y install docker.io
 ```
 
-## Projetos
+## Projects
 
-* [Alpine Linux](./alpine/)
-* [Debian Linux](./debian/)
-* [MongoDB Server](./mongodb/)
-* [Executar arquivos wasm](./wasm/)
+* [(PT) Alpine Linux](./alpine/)
+* [(PT) Debian Linux](./debian/)
+* [(PT) MongoDB Server](./mongodb/)
+* [(PT) Executar arquivos wasm](./wasm/)
 
-## Documentação
+## References
 
 * [Web oficial: Docker](https://www.docker.com/)
 * [Documentação oficial: Docker](https://docs.docker.com/)
