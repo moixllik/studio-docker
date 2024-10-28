@@ -1,7 +1,7 @@
 # Docker
 
 ```bash
-sudo apt -y install docker.io
+sudo docker --version
 ```
 
 ## Projects
@@ -10,6 +10,7 @@ sudo apt -y install docker.io
 * [(PT) Debian Linux](./debian/)
 * [(PT) MongoDB Server](./mongodb/)
 * [(PT) Executar arquivos wasm](./wasm/)
+* [(EN) Docker compose](./compose/)
 
 ## References
 
